@@ -15,6 +15,17 @@
 		B79DAF2220D2812400C57C8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B79DAF2120D2812400C57C8F /* main.m */; };
 		B79DAF2C20D2812400C57C8F /* BSYUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B79DAF2B20D2812400C57C8F /* BSYUITests.m */; };
 		B79DAF3720D2812400C57C8F /* BSYUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B79DAF3620D2812400C57C8F /* BSYUIUITests.m */; };
+		B79DAF5920D2813600C57C8F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B79DAF4520D2813600C57C8F /* LICENSE */; };
+		B79DAF5A20D2813600C57C8F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B79DAF4620D2813600C57C8F /* README.md */; };
+		B79DAF5B20D2813600C57C8F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B79DAF4720D2813600C57C8F /* .gitignore */; };
+		B79DAF5C20D2813600C57C8F /* BSYUI.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B79DAF4820D2813600C57C8F /* BSYUI.podspec */; };
+		B79DAF5D20D2813600C57C8F /* BSYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B79DAF4A20D2813600C57C8F /* BSYLabel.m */; };
+		B79DAF5E20D2813600C57C8F /* BSYView.m in Sources */ = {isa = PBXBuildFile; fileRef = B79DAF4E20D2813600C57C8F /* BSYView.m */; };
+		B79DAF5F20D2813600C57C8F /* BSYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B79DAF5120D2813600C57C8F /* BSYTextField.m */; };
+		B79DAF6020D2813600C57C8F /* BSYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B79DAF5420D2813600C57C8F /* BSYTableViewCell.m */; };
+		B79DAF6120D2813600C57C8F /* BSYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B79DAF5520D2813600C57C8F /* BSYTableView.m */; };
+		B79DAF6220D2813600C57C8F /* BSYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B79DAF5620D2813600C57C8F /* BSYImageView.m */; };
+		B79DAF6320D2813600C57C8F /* BSYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B79DAF5820D2813600C57C8F /* BSYButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,25 @@
 		B79DAF3220D2812400C57C8F /* BSYUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSYUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79DAF3620D2812400C57C8F /* BSYUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSYUIUITests.m; sourceTree = "<group>"; };
 		B79DAF3820D2812400C57C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79DAF4520D2813600C57C8F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B79DAF4620D2813600C57C8F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B79DAF4720D2813600C57C8F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B79DAF4820D2813600C57C8F /* BSYUI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BSYUI.podspec; sourceTree = "<group>"; };
+		B79DAF4A20D2813600C57C8F /* BSYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSYLabel.m; sourceTree = "<group>"; };
+		B79DAF4B20D2813600C57C8F /* BSYImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSYImageView.h; sourceTree = "<group>"; };
+		B79DAF4C20D2813600C57C8F /* BSYUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSYUI.h; sourceTree = "<group>"; };
+		B79DAF4D20D2813600C57C8F /* BSYTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSYTableView.h; sourceTree = "<group>"; };
+		B79DAF4E20D2813600C57C8F /* BSYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSYView.m; sourceTree = "<group>"; };
+		B79DAF4F20D2813600C57C8F /* BSYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSYTableViewCell.h; sourceTree = "<group>"; };
+		B79DAF5020D2813600C57C8F /* BSYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSYButton.h; sourceTree = "<group>"; };
+		B79DAF5120D2813600C57C8F /* BSYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSYTextField.m; sourceTree = "<group>"; };
+		B79DAF5220D2813600C57C8F /* BSYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSYLabel.h; sourceTree = "<group>"; };
+		B79DAF5320D2813600C57C8F /* BSYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSYView.h; sourceTree = "<group>"; };
+		B79DAF5420D2813600C57C8F /* BSYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSYTableViewCell.m; sourceTree = "<group>"; };
+		B79DAF5520D2813600C57C8F /* BSYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSYTableView.m; sourceTree = "<group>"; };
+		B79DAF5620D2813600C57C8F /* BSYImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSYImageView.m; sourceTree = "<group>"; };
+		B79DAF5720D2813600C57C8F /* BSYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSYTextField.h; sourceTree = "<group>"; };
+		B79DAF5820D2813600C57C8F /* BSYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSYButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +131,7 @@
 		B79DAF1120D2812000C57C8F /* BSYUI */ = {
 			isa = PBXGroup;
 			children = (
+				B79DAF4420D2813600C57C8F /* BSYUI-master */,
 				B79DAF1220D2812000C57C8F /* AppDelegate.h */,
 				B79DAF1320D2812000C57C8F /* AppDelegate.m */,
 				B79DAF1520D2812000C57C8F /* ViewController.h */,
@@ -130,6 +161,40 @@
 				B79DAF3820D2812400C57C8F /* Info.plist */,
 			);
 			path = BSYUIUITests;
+			sourceTree = "<group>";
+		};
+		B79DAF4420D2813600C57C8F /* BSYUI-master */ = {
+			isa = PBXGroup;
+			children = (
+				B79DAF4520D2813600C57C8F /* LICENSE */,
+				B79DAF4620D2813600C57C8F /* README.md */,
+				B79DAF4720D2813600C57C8F /* .gitignore */,
+				B79DAF4820D2813600C57C8F /* BSYUI.podspec */,
+				B79DAF4920D2813600C57C8F /* BSYUI */,
+			);
+			path = "BSYUI-master";
+			sourceTree = "<group>";
+		};
+		B79DAF4920D2813600C57C8F /* BSYUI */ = {
+			isa = PBXGroup;
+			children = (
+				B79DAF4A20D2813600C57C8F /* BSYLabel.m */,
+				B79DAF4B20D2813600C57C8F /* BSYImageView.h */,
+				B79DAF4C20D2813600C57C8F /* BSYUI.h */,
+				B79DAF4D20D2813600C57C8F /* BSYTableView.h */,
+				B79DAF4F20D2813600C57C8F /* BSYTableViewCell.h */,
+				B79DAF5020D2813600C57C8F /* BSYButton.h */,
+				B79DAF5120D2813600C57C8F /* BSYTextField.m */,
+				B79DAF5220D2813600C57C8F /* BSYLabel.h */,
+				B79DAF5320D2813600C57C8F /* BSYView.h */,
+				B79DAF4E20D2813600C57C8F /* BSYView.m */,
+				B79DAF5420D2813600C57C8F /* BSYTableViewCell.m */,
+				B79DAF5520D2813600C57C8F /* BSYTableView.m */,
+				B79DAF5620D2813600C57C8F /* BSYImageView.m */,
+				B79DAF5720D2813600C57C8F /* BSYTextField.h */,
+				B79DAF5820D2813600C57C8F /* BSYButton.m */,
+			);
+			path = BSYUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +302,10 @@
 			files = (
 				B79DAF1F20D2812400C57C8F /* LaunchScreen.storyboard in Resources */,
 				B79DAF1C20D2812400C57C8F /* Assets.xcassets in Resources */,
+				B79DAF5C20D2813600C57C8F /* BSYUI.podspec in Resources */,
+				B79DAF5A20D2813600C57C8F /* README.md in Resources */,
+				B79DAF5920D2813600C57C8F /* LICENSE in Resources */,
+				B79DAF5B20D2813600C57C8F /* .gitignore in Resources */,
 				B79DAF1A20D2812000C57C8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +331,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79DAF6020D2813600C57C8F /* BSYTableViewCell.m in Sources */,
+				B79DAF5F20D2813600C57C8F /* BSYTextField.m in Sources */,
+				B79DAF6120D2813600C57C8F /* BSYTableView.m in Sources */,
 				B79DAF1720D2812000C57C8F /* ViewController.m in Sources */,
+				B79DAF6220D2813600C57C8F /* BSYImageView.m in Sources */,
 				B79DAF2220D2812400C57C8F /* main.m in Sources */,
 				B79DAF1420D2812000C57C8F /* AppDelegate.m in Sources */,
+				B79DAF5D20D2813600C57C8F /* BSYLabel.m in Sources */,
+				B79DAF6320D2813600C57C8F /* BSYButton.m in Sources */,
+				B79DAF5E20D2813600C57C8F /* BSYView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
